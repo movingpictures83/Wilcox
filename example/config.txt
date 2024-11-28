@@ -1,0 +1,2 @@
+Prefix plugins/Wilcox/example/
+Plugin Wilcox inputfile parameters.wilcox.txt outputfile wilcox.pdf
