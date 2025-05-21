@@ -46,4 +46,6 @@ wilcox.test(
     y = pscores.nafld[setdiff(id.cpd, cpd.new.fig6)], # rest of metabolites
     alternative = "less")
 
+#print(str(pscores.nafld))
+write.csv(pscores.nafld, paste(outputfile, "csv", sep="."))
 }
